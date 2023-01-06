@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    
+}
+
+body {
+    background-color: #000000;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.counteiner {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: center
+}
+
+.logo {
+    width: 550px;
+}
+
+.counter {
+    width: 500px;
+    align-self: center;
+    margin-bottom: 50px;
+    appearance: none;
+    height: 18px;
+    border-radius: 10px;
+    opacity: 0.8;
+    
+}
+
+.counter::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+    
+  }
+
+  .counter:hover {
+    opacity: 1;
+  }
+  
+  
+
+
+.tamanho {
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.button {
+    width: 500px;
+    align-self: center;
+    height: 2.8em;
+    background-color: lime;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.counteiner-two {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 500px;
+    align-items: center;
+    gap: 10px;
+    visibility: hidden;
+    
+}
+
+.counteiner-two p {
+    font-size: 28px;
+}
+
+.password {
+    width: 450px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    border: solid gray 1px;
+    cursor: pointer;  
+    transition:  0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password:hover {
+    transform: scale(1.05);
+}
+
+
+
+.click {
+    border-radius: 5px;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 40px;
+    cursor: pointer;
+    visibility: hidden;
+    
+}
+
